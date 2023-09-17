@@ -4,6 +4,8 @@
  */
 package cmjd.pkg103.assignment.pos_layered;
 
+import cmjd.pkg103.assignment.pos_layered.view.LayoutView;
+
 /**
  *
  * @author user
@@ -16,6 +18,7 @@ public class Cmjd103AssignmentPos_layered {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello");
+        new LayoutView().setVisible(true);
     }
     
 }
